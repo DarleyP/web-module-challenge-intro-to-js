@@ -246,7 +246,6 @@ Using the annoyingSong function below do the following:
 */
 
 function annoyingSong(bottle) {
- for (i = bottle; i > 1; i--) 
  return (`${bottle} bottles of soda on the wall, ${bottle} bottles of soda, take one down pass it around ${bottle - 1} bottles of soda on the wall`)
 }
 
